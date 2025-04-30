@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import growthLogo from './assets/growth.gif'
-import viteLogo from '/vite.svg'
+import Logo from './assets/logo.png'
 import './App.css'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <>
       <div>
         
+        <img src={Logo} className="logos react" alt="React logo" /><br/>
         
           <img src={growthLogo} className="logo react" alt="React logo" />
       </div>
